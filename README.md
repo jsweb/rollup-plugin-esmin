@@ -40,3 +40,16 @@ export default {
   }
 }
 ```
+
+Optionally, `esmin()` can receive an object argument with parameters to transmit to `babel-minify`.
+
+This object can contains these optional keys:
+
+```javascript
+esmin({
+  options: {},
+  overrides: {}
+})
+```
+
+Those `options` and `overrides` are the same as documented at [babel-minify](https://github.com/babel/minify/tree/master/packages/babel-minify).

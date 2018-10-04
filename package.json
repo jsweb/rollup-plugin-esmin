@@ -2,7 +2,7 @@
   "name": "rollup-plugin-esmin",
   "version": "0.1.0",
   "description": "Rollup plugin to minify ES6+ code using babel-minify with no transpiling to ES5",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
