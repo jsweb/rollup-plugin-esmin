@@ -1,6 +1,6 @@
-import minify from 'babel-minify'
+const minify = require('babel-minify')
 
-export default function ({ options = {}, overrides = {} } = {}) {
+module.exports = function ({ options = {}, overrides = {} } = {}) {
   return {
     name: 'esmin',
     renderChunk: (source, {}, opts) => {
