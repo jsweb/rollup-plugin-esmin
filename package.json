@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-esmin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Rollup plugin to minify ES6+ code using babel-minify with no transpiling to ES5",
   "main": "index.js",
   "scripts": {
