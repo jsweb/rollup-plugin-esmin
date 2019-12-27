@@ -53,3 +53,9 @@ esmin({
 ```
 
 Those `options` and `overrides` are the same as documented at [babel-minify](https://github.com/babel/minify/tree/master/packages/babel-minify).
+
+### Important
+
+If you are using any other plugins to transform your code (like Typescript), it must be executed **before**.
+
+`rollup-plugin-esmin` just minify ES6+ code.
